@@ -3561,6 +3561,9 @@ div#footer{
 .section_divider_remove{
 	margin-bottom: 0;
 }
+.margin_100_class{
+	margin: 93px 0;
+}
 #footer_widget{
 	padding-top: 70px;
 }
@@ -3623,9 +3626,11 @@ div#footer{
 @media only screen and (max-width: 600px) {
 	#logo{
 		left: 10px;
+		width: 200px;
 	}
 	.main-nav{
 		top: 37px;
+		left: 0;
 	}
 	#header_section {
 		margin-bottom: 110px;
@@ -3674,7 +3679,7 @@ div#footer{
 		margin-right: 140px;
 	}
 }
-/* 
+/*
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
